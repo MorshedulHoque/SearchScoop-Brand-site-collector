@@ -1,10 +1,12 @@
-"# SearchScoop-Brand-site-collector" 
+# SearchScoop-Brand Site Collector
 
 # Brand Website Scraper
 
 ## Description
 
 This web app allows users to input a list of brand names along with a keyword, and it automates the process of searching each brand name combined with the keyword on Google. The app retrieves the website link for each brand and presents the results in a table format. Users can also download the results as a CSV file.
+
+![benchmark](https://github.com/MorshedulHoque/SearchScoop-Brand-site-collector/blob/main/images/Screenshot_1.png)
 
 ## Features
 
@@ -23,9 +25,14 @@ This web app allows users to input a list of brand names along with a keyword, a
 
 ## Usage
 
-1. **Upload Brand Names:** Upload a CSV file containing a list of brand names.
+1. **Upload Brand Names:** Put the list of brand names.
+   ![benchmark](https://github.com/MorshedulHoque/SearchScoop-Brand-site-collector/blob/main/images/Screenshot_2.png)
 2. **Input Keyword:** Enter the keyword to refine the search.
-3. **Run Search:** The bot performs Google searches and extracts website links.
+   ![benchmark](https://github.com/MorshedulHoque/SearchScoop-Brand-site-collector/blob/main/images/Screenshot_3.png)
+3. **Run Search:** The bot performs Google searches and extracts website links. We can observe that by the progress bar.
+   ![benchmark](https://github.com/MorshedulHoque/SearchScoop-Brand-site-collector/blob/main/images/Screenshot_4.png)
 4. **View Results:** The results are displayed in a table format on the web app.
+   ![benchmark](https://github.com/MorshedulHoque/SearchScoop-Brand-site-collector/blob/main/images/Screenshot_5.png)
 5. **Download CSV:** Download the results as a CSV file for further use.
+   ![benchmark](https://github.com/MorshedulHoque/SearchScoop-Brand-site-collector/blob/main/images/Screenshot_5.png)
 
