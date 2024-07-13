@@ -1,4 +1,4 @@
-# SearchScoop-Brand Site Collector
+# SearchScoop - Brand Site Collector
 
 # Brand Website Scraper
 
