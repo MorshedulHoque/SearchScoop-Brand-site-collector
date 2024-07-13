@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand Search</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="input-section">
+            <h2>Enter Brand Names</h2>
+            <textarea id="brand-input" rows="10" cols="30" placeholder="Enter one brand per line..."></textarea><br>
+            <h2>Enter Keyword</h2>
+            <input type="text" id="keyword-input" placeholder="Enter keyword..."><br>
+            <button class="btn" onclick="searchBrands()">Search</button>
+            <div id="loading" style="display:none;">
+                <div class="progress">
+                    <div class="progress-bar" id="progress-bar"></div>
+                </div>
+            </div>
+        </div>
+        <div class="output-section">
+            <h2>Results</h2>
+            <div class="table-container">
+                <table id="results-table">
+                    <thead>
+                        <tr>
+                            <th>Brand Name</th>
+                            <th>Website</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <button id="download-button" class="btn" style="display:none;" onclick="downloadCSV()">Download CSV</button>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
